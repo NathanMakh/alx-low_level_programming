@@ -1,2 +1,2 @@
-int _putchar(_putchar);
+char _putchar(_putchar);
 int main(void);
