@@ -15,8 +15,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);/* i is not incremented so it creates an infinite loop
-			      here */
+		putchar(i); //i is not incremented so it creates an infinite loop
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
