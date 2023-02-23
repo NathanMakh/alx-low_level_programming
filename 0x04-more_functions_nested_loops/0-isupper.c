@@ -2,7 +2,7 @@
 
 /**
  * main - checks for uppercase letter
- * @c: integer to be checked
+ * @c: character to be checked
  * Return: 1 if uppercase 0 if otherwise
  */
 
