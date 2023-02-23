@@ -4,6 +4,7 @@
  * main - multiplies two integers
  * @a: first integer to be multiplied
  * @b: second integer to be multiplied
+ * mul: product of a and b
  * Return: mul
  */
 
