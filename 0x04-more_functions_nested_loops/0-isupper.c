@@ -13,7 +13,7 @@ int _isupper(int c);
 	uppercase = 'A';
 	lowercase = 'a';
 
-	if (c >= 'A' && c <= 'a')
+	if (c >= 'A' && c >= 'a')
 		return (1);
 	else
 		return (0)
