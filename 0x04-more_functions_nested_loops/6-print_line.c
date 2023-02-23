@@ -7,10 +7,11 @@
 
 void print_line(int n)
 {
-	int n = (n * _);
+	int n;
 
-	if (n >= 0)
-		_putchar(n);
+	if (n <= 0)
+		putchar('\n');
 	else
-		_putchar('\n');
+		_putchar(n);
+	putchar('\n');
 }
