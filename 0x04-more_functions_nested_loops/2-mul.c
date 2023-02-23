@@ -9,7 +9,6 @@
 
 int mul(int a, int b);
 {
-	mul = (ab);
-	putchar('%d', mul);
+	mul = (a * b);
 	return (mul);
 }
