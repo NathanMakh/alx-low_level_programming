@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - checks for uppercase letter
@@ -11,9 +12,13 @@ int _isupper(int c);
 	int c;
 
 	uppercase = 'A';
-	lowercase = 'a';
 
-	if (c >= 'A' && c >= 'a')
+	if (c == 'A')
+	{	
 		return (1);
+	}
 	else
-		return (0)
+	{
+		return (0);
+	}
+}
