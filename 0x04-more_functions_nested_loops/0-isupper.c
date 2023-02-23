@@ -8,16 +8,8 @@
 
 int _isupper(int c);
 {
-	int c;
-
-	uppercase = 'A';
-
-	if (c >= 'A')
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
-	else
-	{
+
 		return (0);
-	}
 }
