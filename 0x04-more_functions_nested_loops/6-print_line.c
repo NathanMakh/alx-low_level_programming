@@ -10,8 +10,8 @@ void print_line(int n)
 	int n;
 
 	if (n <= 0)
-		putchar('\n');
+		_putchar('\n');
 	else
 		_putchar(n);
-	putchar('\n');
+	_putchar('\n');
 }
