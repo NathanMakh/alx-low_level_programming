@@ -12,13 +12,16 @@ int _isupper(int c);
 	int c;
 
 	uppercase = 'A';
+	lowercase = 'a';
 
 	if (c == 'A')
 	{
+		putchar('%d', c);
 		return (1);
 	}
 	else
 	{
+		putchar('%d', 'a');
 		return (0);
 	}
 }
