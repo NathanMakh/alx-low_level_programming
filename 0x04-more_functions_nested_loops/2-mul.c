@@ -10,5 +10,6 @@
 int mul(int a, int b);
 {
 	mul = (ab);
+	putchar('%d', mul);
 	return (mul);
 }
