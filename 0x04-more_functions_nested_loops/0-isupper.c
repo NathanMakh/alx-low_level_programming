@@ -13,14 +13,7 @@ int _isupper(int c);
 	uppercase = 'A';
 	lowercase = 'a';
 
-	if (c == 'A')
-	{
-		putchar('%d', c);
+	if (c >= 'A' && c <= 'a')
 		return (1);
-	}
 	else
-	{
-		putchar('%d', 'a');
-		return (0);
-	}
-}
+		return (0)
