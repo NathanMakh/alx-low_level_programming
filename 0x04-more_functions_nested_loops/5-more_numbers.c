@@ -12,5 +12,5 @@ void more_numbers(void)
 	{
 		_putchar(n * 10);
 	}
-	_putchar('\n')
-i}
+	_putchar('\n');
+}
