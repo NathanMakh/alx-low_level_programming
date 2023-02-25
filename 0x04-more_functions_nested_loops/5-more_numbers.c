@@ -2,14 +2,14 @@
 
 /**
  * more_numbers - print 10 times the number
- * @n: character to be printed 10 times
+ * @n: character to be printed
  */
 
 void more_numbers(void)
 {
 	int n;
 
-	for (n = 0; n <= 14; n++)
+	for (n % 10 = 0; n % 10 <= 14; n % 10)
 	{
 		_putchar(n);
 	}
