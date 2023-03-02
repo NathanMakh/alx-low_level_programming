@@ -3,9 +3,9 @@
 
 /**
  * _strcat - funtion that concatenates two strings
- * @dest: string to be appended
- * @src: string to be appended
- * Return: pointer to dest
+ * @dest: first parameter
+ * @src: second parameter
+ * Return: a string
  */
 
 char *_strcat(char *dest, char *src)
