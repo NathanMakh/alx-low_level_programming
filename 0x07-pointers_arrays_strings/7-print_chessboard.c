@@ -3,18 +3,18 @@
 /**
  * print_chessboard - print chessboard given set 2D array
  * @a: 2D array
+ * Return: Always 0 (Success)
  */
 
 void print_chessboard(char (*a)[8])
 {
 
-	int row;
-	int column;
+	int i, n;
 
-	for (row = 0; row < 8; row++)
+	for (i = 0; i < 8; i++)
 	{
-		for (column = 0; column < 8; column++)
-			_putchar(a[row][column];
+		for (n = 0; n < 8; n++)
+			_putchar(a[i][n]);
 		_putchar('\n');
 	}
 }
